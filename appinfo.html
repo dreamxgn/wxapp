@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="ScriptLib/jquery.mobile-1.4.5.min.css">
+		<script type="text/javascript" src="ScriptLib/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="ScriptLib/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+<body>
+	<div id="bodyMain" data-role="page">
+		<div data-role="header">
+			<h1>此处广告信息填充</h1>
+		</div>
+		<div data-role="main">
+			<form method="post" action="#">
+				<fieldset data-role="controlgroup">
+					<legend>是否本人</legend>
+					<label for="yesbr">本人</label>
+					<input type="radio" name="isbenren" id="yesbr" value="yesbr"/>
+					<label for="nobr">非本人</label>
+					<input type="radio" name="isbenren" id="nobr" value="nobr"/>
+				</fieldset>
+				<div id="huodongren" data-role="collapsible">
+					<h1>填写您的信息</h1>
+					<label for="brname">您的姓名</label>
+					<input type="text" data-clear-btn="true" id="brname" name="brname"/>
+					<label for="brtel">您的联系电话></label>
+					<input type="text" data-clear-btn="true" id="brtel" name="brtel"/>
+				</div>
+				<div id="canyuren" data-role="collapsible">
+					<h1>填写套餐使用人信息</h1>
+					<label for="ctname">姓名</label>
+					<input type="text" name="ctname" data-clear-btn="true" id="ctname"/>
+					<label for="cttel">联系电话</label>
+					<input type="text" id="cttel" data-clear-btn="true" name="ctname"/>
+					<label for="ctsfz">身份证</label>
+					<input type="text" id="ctsfz" data-clear-btn="true" name="ctsfz"/>
+				</div>
+				<div id="gx" data-role="collapsible">
+					<h1>与套餐使用人关系</h1>
+					<ul id="gxlist" data-role="listview">
+						<li>父子</li>
+						<li>父女</li>
+						<li>母子</li>
+						<li>母女</li>
+						<li>祖孙</li>
+						<li>夫妻</li>
+						<li>其它</li>
+					</ul>
+				</div>
+			<div class="ui-field-contain">
+				<h3>选择优惠</h3>
+				<ul id="xzyh" data-role="listview" data-inset="true">
+					<li data-role="list-divider">健康礼包</li>
+					<li><a href="#"><p>1.赠送达州市居家养老服务中心会员卡一张；<br/>
+2.凭会员卡享受达州市居家养老服务中心的服务；<br/>
+3.凭会员卡每年赠送达州市中心医院免费看诊4次；</p></a></li>
+					<li data-role="list-divider">手机话费礼包</li>
+					<li><a href="#"><p>1.预存100元话费，赠送价值299元手机一部；
+2.自套餐生效之日起连续4月每月赠送话费50元；
+3.赠送居家养老服务中心会员卡一张；
+4.凭会员卡享受达州市居家养老服务中心的服务；
+5.凭会员卡每年赠送达州市中心医院免费看诊4次；
+6.凭会员卡到中心医院就诊检查费用优惠5%（次月充话费返还）；</p></a></li>
+				</ul>
+			</div>	
+			</form>
+		</div>
+		<div data-role="footer">
+			<h1>Footer</h1>
+		</div>
+	</div>	
+</body>
+</html>
